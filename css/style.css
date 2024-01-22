@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: url(/assets/Capture.webp) no-repeat center/cover;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+.content{
+  color: #000;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.content h1{
+  font-size: 95px;
+  margin-bottom: 10px;
+}
+.content p{
+  font-size: 35px;
+}
